@@ -1,0 +1,18 @@
+#
+# trace.txt - Putting it all together
+#
+/bin/echo -e tsh> ./myspin 10
+./myspin 10 
+
+SLEEP 2
+TSTP
+
+/bin/echo tsh> jobs
+jobs
+
+/bin/echo tsh> fg %1
+fg %1
+
+SLEEP 1
+TSTP
+

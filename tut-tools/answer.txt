@@ -1,0 +1,3 @@
+$ps -eo comm | sort -d
+$ls -aSr /etc | grep .conf | head -n 5
+$echo echo hello world! >> echo.sh | chmod +x ./echo.sh
